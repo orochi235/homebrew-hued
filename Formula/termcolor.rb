@@ -6,6 +6,7 @@ class Termcolor < Formula
   license "MIT"
 
   def install
+    bin.install "bin/termcolor"
     share.install "termcolor.sh"
     share.install "termcolor-names.sh"
     share.install "termcolor.fish"
