@@ -1,8 +1,8 @@
 class Hued < Formula
   desc "Set terminal background color per directory, like .editorconfig for your terminal"
   homepage "https://github.com/orochi235/hued"
-  url "https://github.com/orochi235/hued/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "db6027e37433399d4ef61f275d08955ff8b134d35c22d9b0858f09a257daa5c2"
+  url "https://github.com/orochi235/hued/archive/refs/tags/v2.3.0.tar.gz"
+  sha256 "b89b3a66fa9f01f6000edc8a0bcfae29f8da2574885475a1edcc1fa0418929e3"
   license "MIT"
 
   def install
