@@ -1,8 +1,8 @@
 class Termcolor < Formula
   desc "Set terminal background color per directory, like .editorconfig for your terminal"
   homepage "https://github.com/orochi235/termcolor"
-  url "https://github.com/orochi235/termcolor/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "1574da403fcdbbbadced6056b115d42424270b5482a7078a820e5abc5b90393b"
+  url "https://github.com/orochi235/termcolor/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "1e7ed7d4275a6a1c83501187205125652728934dab96cce679f4447c864f5f77"
   license "MIT"
 
   def install
