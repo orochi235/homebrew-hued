@@ -1,5 +1,5 @@
 class Hued < Formula
-  desc "Set terminal background color per directory, like .editorconfig for your terminal"
+  desc "Set terminal colors declaratively per directory"
   homepage "https://github.com/orochi235/hued"
   url "https://github.com/orochi235/hued/archive/refs/tags/v2.3.0.tar.gz"
   sha256 "b89b3a66fa9f01f6000edc8a0bcfae29f8da2574885475a1edcc1fa0418929e3"
