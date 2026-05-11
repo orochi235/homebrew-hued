@@ -1,8 +1,8 @@
 class Hued < Formula
   desc "Change terminal colors declaratively by directory"
   homepage "https://github.com/orochi235/hued"
-  url "https://github.com/orochi235/hued/archive/refs/tags/v2.4.2.tar.gz"
-  sha256 "05d33913e2fbdc8525c1ccfe46311163884fbac4a4aaa57c2a8c6e2ea64c3ee1"
+  url "https://github.com/orochi235/hued/archive/refs/tags/v2.5.0.tar.gz"
+  sha256 "5d7c0846f7d3f2b5a6931b61e67ef4981ffb176a0b19082a9d3aafb7619d3df4"
   license "MIT"
 
   def install
