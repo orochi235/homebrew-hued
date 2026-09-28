@@ -1,8 +1,8 @@
 class Hued < Formula
   desc "Change terminal colors declaratively by directory"
   homepage "https://github.com/orochi235/hued"
-  url "https://github.com/orochi235/hued/archive/refs/tags/v3.5.0.tar.gz"
-  sha256 "1895b4594dda2c8ffcda60d0cd7fbf2362437a76eb86c517e7ad8d08013b6928"
+  url "https://github.com/orochi235/hued/archive/refs/tags/v3.6.0.tar.gz"
+  sha256 "40dfbd155071b6d8fd6eb652c46b70968ec28e4edf6593d182c0ab8fc34e13be"
   license "MIT"
 
   depends_on "python@3.12"
@@ -10,6 +10,7 @@ class Hued < Formula
   def install
     bin.install "bin/hued"
     bin.install "bin/hued-pick"
+    bin.install "bin/hued-py"
     share.install "hued.sh"
     share.install "hued-names.sh"
     share.install "hued.fish"
@@ -17,6 +18,7 @@ class Hued < Formula
     zsh_completion.install "completions/_hued"
     fish_completion.install "completions/hued.fish"
     (libexec/"hued").install "src/picker"
+    (libexec/"hued").install "src/huedmap"
   end
 
   def caveats
