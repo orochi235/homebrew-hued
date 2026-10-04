@@ -9,7 +9,6 @@ class Hued < Formula
 
   def install
     bin.install "bin/hued"
-    bin.install "bin/hued-pick"
     bin.install "bin/hued-py"
     share.install "hued.sh"
     share.install "hued-names.sh"
@@ -17,7 +16,6 @@ class Hued < Formula
     bash_completion.install "completions/hued.bash"
     zsh_completion.install "completions/_hued"
     fish_completion.install "completions/hued.fish"
-    (libexec/"hued").install "src/picker"
     (libexec/"hued").install "src/huedmap"
   end
 
